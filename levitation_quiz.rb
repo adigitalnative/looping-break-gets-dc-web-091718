@@ -8,6 +8,7 @@ def levitation_quiz
 	  input = gets.chomp
 	  break if input == correct_spell
 	end
+	true
 end
 
 
